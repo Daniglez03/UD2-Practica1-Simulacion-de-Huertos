@@ -17,7 +17,7 @@ public class Consumidor extends Thread{
             try {
                 String vegetableToConsume = this.huerto.consumeVegetable(this.name);
                 Thread.sleep(this.CONSUMING_TIME);
-                System.out.println(this.name + " ha consumido: " + vegetableToConsume);
+                System.out.println("Consumidor => " + this.name + " ha consumido: " + vegetableToConsume);
             } catch (Exception e) {
                 e.printStackTrace();
             }

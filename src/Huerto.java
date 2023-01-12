@@ -14,7 +14,7 @@ public class Huerto {
         }
 
         this.vegetablesAvailables.add(newVegetable);
-        System.out.println(farmerName + " ha producido " + newVegetable);
+        System.out.println("Productor => " + farmerName + " ha producido: " + newVegetable);
         notifyAll();
     }
 
