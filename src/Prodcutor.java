@@ -1,5 +1,4 @@
 public class Prodcutor extends Thread{
-
     public static String []Vegetables =  {
             "lettuce",
             "cabbage",
